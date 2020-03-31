@@ -1,0 +1,47 @@
+@keyframes animatioLogo{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+.app {
+  color: seagreen;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 2rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  /* The image used */
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("assets/images/ezgif-4-cd2274a070c3.gif");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  width: 100%;
+  height: 100vh;
+
+  & h2 {
+    
+    font-size: 1.5rem;
+    margin-bottom: 0;
+  }
+  & h1 {
+    
+    margin-bottom: 0;
+    text-align: center;
+  }
+  & .logo {
+    transform-origin: 50% 50%;
+    animation: animatioLogo 2s forwards infinite linear;
+    text-align: center;
+  }
+}
