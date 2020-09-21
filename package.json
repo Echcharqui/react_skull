@@ -23,10 +23,16 @@
   "author": "?",
   "license": "ISC",
   "dependencies": {
+    "elliptic": "^6.5.3",
+    "http-proxy": "^1.18.1",
+    "lodash": "^4.17.20",
+    "node-forge": "^0.10.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-router-dom": "^5.1.2",
-    "source-map-explorer": "^2.3.1"
+    "serialize-javascript": "^5.0.1",
+    "source-map-explorer": "^2.3.1",
+    "websocket-extensions": "^0.1.4"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
