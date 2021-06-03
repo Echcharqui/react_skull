@@ -23,7 +23,7 @@
   "author": "?",
   "license": "ISC",
   "dependencies": {
-    "elliptic": "^6.5.3",
+    "elliptic": "^6.5.4",
     "http-proxy": "^1.18.1",
     "lodash": "^4.17.21",
     "node-forge": "^0.10.0",
